@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="zh-Hant">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <title>戰神大兜蟲</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        header {
+            background: url('./back.jpg');
+            background-position: center;
+            background-color: rgb(171, 179, 179);
+            padding: 0.5rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            padding-left: 1rem;
+        }
+        header h1 img{
+            position: relative;
+            top: 0.35rem;
+        }
+        nav{
+            background-color:rgba(0, 0, 0, 0.678) ;
+            font-size: 1.1rem;
+        }
+        nav ul {
+            padding-left: 1rem;
+            list-style-type:none;
+            display: flex;
+        }
+        nav ul li{
+            display: flex;
+        }
+        nav ul li a{
+            padding:0.8rem 0.7rem;
+            color: rgba(255, 255, 255, 0.664);
+            text-decoration: none;
+            transition: all 0.3 ease;
+        }
+        nav ul li a:hover{
+            color: white;
+        }
+        main{
+            font-size: 1rem;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        section.leftintro,section.rightinfor{
+            padding: 1.5rem;
+        }
+        .leftintro{
+            flex: 4 1 450px;
+        }
+        .leftintro .video iframe {
+            padding-top: 1rem;
+        }
+        .rightinfor{
+            display: flex;
+            flex: 1 1 250px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .rightinfor img{
+            width: 100%;
+            border-radius: 2rem;
+            
+        }
+        .rightinfor h2{
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .rightinfor iframe{
+            border-radius: 2rem;
+            width: 100%;
+        }
+        section table{
+            padding: 0.5rem;
+        }
+        section table tr{            
+            padding: 0.4rem 1rem;
+        }
+        section table td{            
+            padding: 0.4rem 1rem;
+        }
+        .active{
+            color: white;
+        }
+        @media screen and (max-width:662px) {
+            nav ul {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 標題 -->
+    <header>
+        <h1><img src="https://img.icons8.com/external-tulpahn-flat-tulpahn/40/000000/external-rhinoceros-beetle-insect-tulpahn-flat-tulpahn.png"/>甲蟲介紹</h1>
+    </header>
+
+    <!-- 導覽列 -->
+    <nav>
+        <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="dhh.html">長戟大兜蟲</a></li>
+            <li><a href="ccc.html">南洋大兜蟲</a></li>
+            <li><a class="active" href="mm.html">戰神大兜蟲</a></li>
+            <li><a href="mee.html">毛象大兜蟲</a></li>
+            <li><a href="ma.html">亞克提恩大兜蟲</a></li>
+        </ul>
+    </nav>
+    
+    <!-- 介紹 -->
+    <main>
+        <section class="leftintro">
+            <h1>戰神大兜蟲</h1>
+            <hr>
+            <p>戰神象兜蟲（學名：Megasoma mars）是象兜蟲屬中身長最長的一種，雄性身長可達144mm，體重雖不及亞克提恩象兜蟲，但若比身長，會比體重較重的亞克提恩象兜蟲更勝過一疇。分佈在中南美洲，以戰神瑪爾斯命名。</p>
+            <br>
+            <p></p>
+            <h2>描述</h2> 
+            <hr> 
+            <p>野生大小一般是雄蟲 65~140mm，雌蟲 55~90mm。</p>
+            <br>
+            <h2>分布</h2> 
+            <hr>
+            <p>產地:中南美洲-哥倫比亞、秘魯、厄瓜多、巴西、蓋亞那等。主要分布在西部和中部亞馬遜河流域的巴西至哥倫比亞北部。</p> 
+            <br>
+            <h2>生態</h2>
+            <hr>
+            <p>幼蟲期24~36個月，成蟲期4~6個月，個體大、性情溫順，堅硬的黑色光澤鞘翅，光滑而不粗糙。</p>
+            <br>
+            <section class="video">
+                <h2>飼育教學</h2>
+                <hr>
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/aeOokUnw2DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </section>
+        <section class="rightinfor">
+            <img src="./mm.jpg" alt="">
+            <h2>分布地區</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16136241.715502318!2d-84.08878394614273!3d-9.108128155804417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c850c05914f5%3A0xf29e011279210648!2z56eY6a2v!5e0!3m2!1szh-TW!2stw!4v1641543027713!5m2!1szh-TW!2stw" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+</body>
+</html>
